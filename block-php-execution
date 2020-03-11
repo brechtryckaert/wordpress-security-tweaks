@@ -1,0 +1,6 @@
+Add this to a .htaccess file in wp-content/uploads
+
+#Prevent php execution
+<Files *.php>
+deny from all
+</Files>
