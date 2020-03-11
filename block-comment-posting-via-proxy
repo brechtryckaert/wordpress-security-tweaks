@@ -1,3 +1,5 @@
+Add this to your .htaccess:
+
 # Block comment posting via proxy server
 RewriteCond %{REQUEST_METHOD} =POST
 RewriteCond %{HTTP:VIA}%{HTTP:FORWARDED}%{HTTP:USERAGENT_VIA}%{HTTP:X_FORWARDED_FOR}%{HTTP:PROXY_CONNECTION} !^$ [OR]
