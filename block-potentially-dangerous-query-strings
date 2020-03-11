@@ -1,3 +1,5 @@
+Add this to your .htaccess:
+
 # Block potentially dangerous query strings
 <IfModule mod_rewrite.c>
 RewriteCond %{QUERY_STRING} ../   [NC,OR]
