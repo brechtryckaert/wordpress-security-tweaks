@@ -1,0 +1,11 @@
+# Force SSL for the backend
+define('FORCE_SSL_LOGIN', true);
+define('FORCE_SSL_ADMIN', true);
+
+# Disallow theme and plugin editor
+define(‘DISALLOW_FILE_EDIT’,true);
+
+# A safer WP_Debug setup
+define(‘WP_DEBUG', true); 
+define('WP_DEBUG_LOG', true);
+define('WP_DEBUG_DISPLAY', false);
