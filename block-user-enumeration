@@ -1,0 +1,4 @@
+#Stop username enumeration
+RewriteCond %{REQUEST_URI} !^/wp-admin [NC]
+RewriteCond %{QUERY_STRING} author=\d
+RewriteRule ^ /? [L,R=301]
