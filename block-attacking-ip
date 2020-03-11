@@ -1,0 +1,4 @@
+Add this to your htaccess file:
+
+#Block a specific attacking ip-address
+Deny from 45.129.96.19
