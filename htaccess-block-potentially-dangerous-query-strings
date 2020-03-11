@@ -17,5 +17,9 @@ RewriteCond %{QUERY_STRING} ^.*(request|select|insert|union|declare|drop).* [NC]
 RewriteRule ^(.*)$ - [F,L]
 </IfModule>
 
-Attention: 
-Requires thorough testing, might break things.
+
+
+################################################
+#Attention:                                    #
+#Requires thorough testing, might break things.#
+################################################
