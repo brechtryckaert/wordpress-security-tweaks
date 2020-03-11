@@ -1,0 +1,8 @@
+Add this to a .htaccess file in wp-content/uploads
+
+#Limit accessible files to certain filetypes
+order deny,allow
+deny from all
+<files ~ ".(xml|css|jpe?g|png|gif|js)$">
+allow from all
+</files>
