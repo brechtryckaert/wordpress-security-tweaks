@@ -1,0 +1,4 @@
+Add this to your htaccess file:
+
+#Blocking xml-rpc requests
+RewriteRule ^xmlrpc.php$ "http://0.0.0.0/" [R=301,L]
