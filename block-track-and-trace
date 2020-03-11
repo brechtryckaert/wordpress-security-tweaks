@@ -1,3 +1,5 @@
+Add this to your .htaccess:
+
 # Block track & trace
 RewriteEngine On
 RewriteCond %{REQUEST_METHOD} ^TRACE
