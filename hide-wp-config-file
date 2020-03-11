@@ -1,3 +1,5 @@
+Add this to your .htaccess:
+
 #hide wp-config file
 <files wp-config.php>
 order allow,deny
