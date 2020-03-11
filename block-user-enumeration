@@ -1,3 +1,5 @@
+Add this to your .htaccess:
+
 #Stop username enumeration
 RewriteCond %{REQUEST_URI} !^/wp-admin [NC]
 RewriteCond %{QUERY_STRING} author=\d
